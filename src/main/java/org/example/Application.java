@@ -48,6 +48,7 @@ public class Application {
 
         List<Product> productListClone = esercizio7(file);
 
+        
         System.out.println(productListClone.equals(productList) ? "Le due liste sono uguali" : "Qualcosa non va le due liste sono diverse");
 
     }
